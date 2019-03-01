@@ -1,0 +1,110 @@
+
+/* Frame */
+body {
+  width: 60rem;
+  background-color: white;
+  color: #555;
+  margin: 0 auto;
+  font-family: Open Sans;
+}
+
+header {
+  border-bottom: 1px solid #CCC;
+  min-height: 60px;
+}
+
+nav {
+  text-align: right;
+}
+
+nav a {
+  font-size: 1.3em;
+  margin: 0 0 0 1.2rem;
+  display: inline;
+}
+
+header {
+  margin-top: 10px;
+}
+
+header .profile-pic img {
+  float: left;
+  width: 50px;
+  height: 50px;
+}
+
+/* Layout */
+#wrap {
+  width: 870px;
+  margin: 0px auto;
+  padding-top: 70px;
+}
+
+#left {
+  float: left;
+  padding-right: 50px;
+}
+
+#right {
+  float: left;
+  width: 500px;
+  padding-top: 15px;
+}
+
+/* Styling */
+.img-circular {
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  display: block;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+}
+
+.profile-pic { text-align: center; }
+.bio-infos { padding-top: 15px; padding-left: 4px; text-align: center; }
+.name { font-size: 14pt; }
+
+.section-title { font-size: 20pt; color: #777; }
+.section-description { margin-top: 10px; padding-bottom: 30px; }
+
+.platform { padding-bottom: 20px; }
+.platform-name { font-size: 14pt; }
+.platform-description { line-height: 18pt; padding-top: 2px; }
+.platform-description p { margin: 0; }
+
+.last-updated { border-top: 1px solid #EEE; margin-top: 4em; padding-top: 5px; padding-bottom: 50px; color: #BBB; font-size: 8pt; }
+
+/* Typography */
+a:link { color: #2884e3; text-decoration: none; }
+a:visited { color: #2884e3; text-decoration: none; }
+a:hover { color: #21b2f4; }
+
+table#school-years {
+  width: 100%;
+}
+
+table#school-years ul {
+  float: left;
+}
+
+table#school-years th {
+  text-align: left;
+}
+
+table#school-years td {
+  border-bottom: 1px solid #EEE;
+  padding: 0.2em;
+}
+
+table#school-years caption {
+  text-align: right;
+}
+
+table#school-years tr.report-card-row {
+  background-color: #F7F7F7;
+}
+
+.report-card-row a:visited { color: #999; }
+

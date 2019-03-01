@@ -1,0 +1,45 @@
+---
+title: School Years
+lastUpdated: March 1, 2019
+---
+<script src="js/school-years.js"></script>
+
+<p style="text-align: right;">Show report cards <input id="show-reports" type="checkbox" /></p>
+
+<table id="school-years" cellspacing="0">
+<thead>
+  <tr>
+    <th>City</th>
+
+    <th>Grade</th>
+    <th>Age</th>
+    <th>Years</th>
+    <th>School</th>
+    <th>Teachers</th>
+    <th>Home Address</th>
+  </tr>
+</thead>
+
+<tbody>
+  $for(grades)$
+  <tr>
+    <td>$city$</td>
+
+    <td>$grade$</td>
+    <td>$age$</td>
+    <td>$years$</td>
+    <td>$school$</td>
+    <td>$if(teacher)$$teacher$$endif$</td>
+    <td>$if(address)$$address$$endif$</td>
+  </tr>
+  $if(hasReports)$
+  <tr valign="top" class="report-card-row" style="display: none;">
+    <td colspan="7">
+      $body$
+    </td>
+  </tr>
+  $endif$
+  $endfor$
+</tbody>
+</table>
+
