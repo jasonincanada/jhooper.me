@@ -61,6 +61,14 @@ main = hakyllWith config $ do
           >>= applyAsTemplate ctx
           >>= loadAndApplyTemplate "templates/subpage.html" defaultContext
 
+    match "music.html" $ do
+      route idRoute
+      compile $ do
+
+        getResourceBody
+          >>= applyAsTemplate defaultContext
+          >>= loadAndApplyTemplate "templates/subpage.html" defaultContext
+
 
 --------------------------------------------------------------------------------
 -- Custom fields

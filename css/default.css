@@ -8,6 +8,10 @@ body {
   font-family: Open Sans;
 }
 
+p {
+  line-height: 1.8em;
+}
+
 header {
   border-bottom: 1px solid #CCC;
   min-height: 60px;
