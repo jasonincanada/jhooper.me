@@ -17,7 +17,7 @@ module ReportCards (
 
 import Control.Applicative (many, (<|>))
 import Text.Printf         (printf)
-import NanoParsec
+import NanoParsec          (char, item, Parser, run, satisfy, string)
 
 data ReportBody = Character Char
                 | Report String String
