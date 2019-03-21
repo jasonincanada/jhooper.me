@@ -1,6 +1,6 @@
 ---
 name: YouTube
-url: https://www.youtube.com/user/nirgle/playlists
+url: https://www.youtube.com/user/nirgle/
 ---
 
-My timelapse air traffic control vids, other gaming footage, clips from hockey games, my brother Ryan's skydiving, and other vids
+My timelapse air traffic control sessions, various gaming footage, and other videos
