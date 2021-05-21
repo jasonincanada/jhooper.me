@@ -19,7 +19,7 @@ https://stackoverflow.com/questions/59122852/how-to-write-functor-instance-of-co
 
 ### profunctors-symmetric-lens.png
 
-The symmetric representation of concrete lenses is from pg 84:17 of:
+The symmetric representation of concrete lenses and its derivation is from pg 84:17 of:
 
 * Guillaume Boisseau and Jeremy Gibbons. 2018. What You Needa Know about Yoneda: Profunctor Optics and the Yoneda Lemma (Functional Pearl). Proc. ACM Program. Lang. 2, ICFP, Article 84 (September 2018), 27 pages.  https://doi.org/10.1145/3236779
 
