@@ -21,7 +21,7 @@ https://stackoverflow.com/questions/59122852/how-to-write-functor-instance-of-co
 
 This is the monad instance, using the `bind` method, of the continuation-passing functor, from page 1 of this paper:
 
-* Ralf Hinze. 2012. Kan extensions for program optimisation <i>or</i>: art and dan explain an old trick. In <i>Proceedings of the 11th international conference on Mathematics of Program Construction</i> (<i>MPC'12</i>). Springer-Verlag, Berlin, Heidelberg, 324–362. https://doi.org/10.1007/978-3-642-31113-0_16
+* Ralf Hinze. 2012. Kan Extensions for Program Optimisation <i>Or</i>: Art and Dan Explain an Old Trick. In <i>Proceedings of the 11th international conference on Mathematics of Program Construction</i> (<i>MPC'12</i>). Springer-Verlag, Berlin, Heidelberg, 324–362. https://doi.org/10.1007/978-3-642-31113-0_16
 
 Direct link: https://www.cs.ox.ac.uk/ralf.hinze/Kan.pdf
 
