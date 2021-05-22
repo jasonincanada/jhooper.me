@@ -17,6 +17,15 @@ This is a visual representation of the example given at the bottom of the follow
 https://stackoverflow.com/questions/59122852/how-to-write-functor-instance-of-continuation-monad/59123077#59123077
 
 
+### continuation-passing-style-monad-bind.png
+
+This is the monad instance, using the `bind` method, of the continuation-passing functor, from page 1 of this paper:
+
+* Ralf Hinze. 2012. Kan extensions for program optimisation <i>or</i>: art and dan explain an old trick. In <i>Proceedings of the 11th international conference on Mathematics of Program Construction</i> (<i>MPC'12</i>). Springer-Verlag, Berlin, Heidelberg, 324–362. https://doi.org/10.1007/978-3-642-31113-0_16
+
+Direct link: https://www.cs.ox.ac.uk/ralf.hinze/Kan.pdf
+
+
 ### profunctors-symmetric-lens.png
 
 The symmetric representation of concrete lenses and its derivation is from pg 84:17 of:
