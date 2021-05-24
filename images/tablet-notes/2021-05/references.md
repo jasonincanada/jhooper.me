@@ -34,3 +34,8 @@ The symmetric representation of concrete lenses and its derivation is from pg 84
 
 Direct link: https://www.cs.ox.ac.uk/jeremy.gibbons/publications/proyo.pdf
 
+
+### concrete-grate.png
+
+This is the `zipWith3Grate` function from pg 84:23 of the prior reference
+
